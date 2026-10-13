@@ -1,0 +1,15 @@
+{
+  "name": "your name",
+  "nickname": "your_nickname",
+  "eyebrow": "welcome to my little world",
+  "bio": "A little shy, a little silly.\nJust making my own cozy corner of the internet.",
+  "tags": ["fluffy vibes", "late-night games", "soft things"],
+  "avatar": "assets/character.png",
+  "background": "assets/character.png",
+  "links": [
+    { "platform": "telegram", "label": "Telegram", "description": "come say hello", "url": "" },
+    { "platform": "discord", "label": "Discord", "description": "let's hang out", "url": "" },
+    { "platform": "steam", "label": "Steam", "description": "one more game?", "url": "" },
+    { "platform": "tiktok", "label": "TikTok", "description": "little bits of me", "url": "" }
+  ]
+}

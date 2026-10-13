@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6eceb">
+  <meta name="description" content="A soft little corner of the internet. Come say hello.">
+  <title>Your name · a little corner</title>
+  <link rel="icon" href="assets/paw.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="wallpaper" aria-hidden="true"></div>
+  <div class="paper" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="./"><svg viewBox="0 0 32 32" aria-hidden="true"><use href="assets/paw.svg#paw"/></svg><span>a little corner</span></a>
+    <button class="motion-toggle" type="button" aria-pressed="false" title="Pause animations"><span class="motion-dot"></span><span id="motion-label">slow & cozy</span></button>
+  </header>
+  <main>
+    <section class="profile" aria-labelledby="profile-name">
+      <div class="hello-note"><span>✦</span> oh, hey. you found me!</div>
+      <div class="intro">
+        <div class="avatar-wrap"><span class="avatar-crop"><img id="avatar" src="assets/character.png" alt="Fluffy cream character in a pink sweater"></span><span class="avatar-spark" aria-hidden="true">✧</span></div>
+        <span class="little-label" id="eyebrow">welcome to my little world</span>
+      </div>
+      <h1>hey, I'm<br><span id="profile-name">your name</span><span class="name-dot">.</span></h1>
+      <p class="handle" id="profile-handle">@your_nickname <span aria-hidden="true">♡</span></p>
+      <p class="bio" id="profile-bio">A little shy, a little silly.<br>Just making my own cozy corner of the internet.</p>
+      <div class="tags" id="profile-tags"><span>fluffy vibes</span><span>late-night games</span><span>soft things</span></div>
+      <div class="links-heading"><span>LET'S STAY CLOSE</span><span aria-hidden="true">↙</span></div>
+      <nav class="social-links" id="social-links" aria-label="Social links"></nav>
+      <p class="config-notice" id="config-notice" hidden></p>
+      <div class="profile-bottom"><span><span class="tiny-flower" aria-hidden="true">✿</span> glad you're here</span><button id="love-button" type="button" aria-label="Send a little love"><span id="love-icon" aria-hidden="true">♡</span><span id="love-label">a little love</span></button></div>
+    </section>
+    <div class="character-note" aria-hidden="true"><span class="note-star">✧</span><span>100% fluff.<br>just a little silly.</span><svg viewBox="0 0 90 55"><path d="M5 8Q65 0 72 44M58 35l14 10 8-15"/></svg></div>
+    <div class="floating-star star-one" aria-hidden="true">✦</div><div class="floating-star star-two" aria-hidden="true">✧</div>
+    <div class="love-burst" id="love-burst" aria-hidden="true"></div>
+  </main>
+  <footer><span>my tiny place in a very big universe</span><span>made with a little <span class="footer-heart">♡</span></span></footer>
+</body>
+</html>
